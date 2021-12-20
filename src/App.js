@@ -20,6 +20,8 @@ import Randomfile from "./components/Hooks/randomfile";
 import Challenge1 from "./components/CodingChanllenge/Challenge";
 import ImageGallery from "./components/CodingChanllenge/ImageGallery";
 import Challenge2 from "./components/CodingChanllenge/Challenge2";
+import Challenge3 from "./components/CodingChanllenge/Challenge3";
+import UseStateHook2 from "./components/AdvancedHooks/UseStateHook2";
 
 function App() {
     return (
@@ -30,8 +32,10 @@ function App() {
             <UseRefHook/>
             <UseContextHook/>
             <Challenge1/>
-            <ImageGallery/>
+            {/*<ImageGallery/>*/}
             <Challenge2/>
+            <Challenge3/>
+            <UseStateHook2/>
         </div>
     );
 }
